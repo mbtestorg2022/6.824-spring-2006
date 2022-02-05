@@ -7,14 +7,96 @@ uid: c6bbff67-7478-f7d2-6053-2d402c0b0bf7
 Laboratory Assignments
 ----------------------
 
-| LABS | TOPICS | SUPPORTING FILES |
-| --- | --- | --- |
-| 0 | Getting started ([PDF]({{< baseurl >}}/resources/get_started)) | &nbsp; |
-| 1 | Lock server ([PDF]({{< baseurl >}}/resources/lab1)) | lab-1.zip ([ZIP]({{< baseurl >}}/resources/lab1-2)) (The ZIP file contains: 5 .c files, 2 .h files, 1 Makefile, and 1 .x file.) |
-| 2 | Basic file server ([PDF]({{< baseurl >}}/resources/lab2-2)) | lab-2.zip ([ZIP]({{< baseurl >}}/resources/lab2)) (The ZIP file contains: 5 .c files, 3 .h files, 2 .x files, 1 .pl file, and 1 Makefile.) |
-| 3 | File server: Reading, writing, and sharing files ([PDF]({{< baseurl >}}/resources/lab3)) | lab-3.zip ([ZIP]({{< baseurl >}}/resources/lab3-1)) (The ZIP file contains: test-lab-3.pl.) |
-| 4 | MKDIR, REMOVE, and locking ([PDF]({{< baseurl >}}/resources/lab4-2)) | lab-4.zip ([ZIP]({{< baseurl >}}/resources/lab4)) (The ZIP file contains: 6 .c files, 3 .h files, 2 .x files, 1 Makefile, and 1 .pl file.) |
-| 5 | Cache consistency ([PDF]({{< baseurl >}}/resources/lab5)) |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LABS
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+SUPPORTING FILES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Getting started ([PDF]({{< baseurl >}}/resources/get_started))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Lock server ([PDF]({{< baseurl >}}/resources/lab1))
+{{< tdclose >}}
+{{< tdopen >}}
+lab-1.zip ([ZIP]({{< baseurl >}}/resources/lab1-2)) (The ZIP file contains: 5 .c files, 2 .h files, 1 Makefile, and 1 .x file.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Basic file server ([PDF]({{< baseurl >}}/resources/lab2-2))
+{{< tdclose >}}
+{{< tdopen >}}
+lab-2.zip ([ZIP]({{< baseurl >}}/resources/lab2)) (The ZIP file contains: 5 .c files, 3 .h files, 2 .x files, 1 .pl file, and 1 Makefile.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+File server: Reading, writing, and sharing files ([PDF]({{< baseurl >}}/resources/lab3))
+{{< tdclose >}}
+{{< tdopen >}}
+lab-3.zip ([ZIP]({{< baseurl >}}/resources/lab3-1)) (The ZIP file contains: test-lab-3.pl.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+MKDIR, REMOVE, and locking ([PDF]({{< baseurl >}}/resources/lab4-2))
+{{< tdclose >}}
+{{< tdopen >}}
+lab-4.zip ([ZIP]({{< baseurl >}}/resources/lab4)) (The ZIP file contains: 6 .c files, 3 .h files, 2 .x files, 1 Makefile, and 1 .pl file.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Cache consistency ([PDF]({{< baseurl >}}/resources/lab5))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Class Machines
 --------------

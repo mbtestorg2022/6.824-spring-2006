@@ -31,12 +31,57 @@ Grading
 
 The grade for this class will be based on:
 
-| Activities | Percentages |
-| --- | --- |
-| Labs (programming assignments) | 25% |
-| Project (programming and paper) | 40% |
-| Quizzes | 25% |
-| Paper discussion, participation, and paper questions | 10% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+Activities
+{{< thclose >}}
+{{< thopen >}}
+Percentages
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Labs (programming assignments)
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Project (programming and paper)
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quizzes
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Paper discussion, participation, and paper questions
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Late Policy
 
@@ -69,31 +114,333 @@ Stevens, W. Richard, and Stephen Rago. _Advanced Programming in the UNIX Environ
 {{< anchor "Calendar" >}}{{< /anchor >}}Calendar
 ------------------------------------------------
 
-| LEC # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| 1 | Introduction and O/S review | &nbsp; |
-| 2 | I/O concurrency and event-driven programming | &nbsp; |
-| 3 | Event-driven programming (cont.) | Lab 1 due |
-| 4 | Network file system | &nbsp; |
-| 5 | RPC transparency | Lab 2 due |
-| 6 | Crash recovery | Team list due |
-| 7 | Logging | Lab 3 due |
-| 8 | Cache consistency and locking | Project proposal due |
-| 9 | Memory consistency | Lab 4 due |
-| 10 | First project conferences | &nbsp; |
-| 11 | Memory consistency (cont.) | &nbsp; |
-| 12 | Vector timestamps and version vectors | Lab 5 due |
-| &nbsp; | Quiz 1 | &nbsp; |
-| 13 | Two-phase commit | &nbsp; |
-| 14 | Paxos | &nbsp; |
-| 15 | Viewstamped replication | &nbsp; |
-| 16 | Harp | First draft of report due |
-| 17 | Second project conferences | &nbsp; |
-| 18 | Frangipani | &nbsp; |
-| 19 | Scalable lookup | Second draft of report due |
-| 20 | Wide-area storage | &nbsp; |
-| &nbsp; | Quiz 2 | &nbsp; |
-| 21 | Hacking day (no class) | &nbsp; |
-| 22 | Project demonstrations | &nbsp; |
-| 23 | Content distribution | &nbsp; |
-| 24 | Distributed computing | Project reports due
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction and O/S review
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+I/O concurrency and event-driven programming
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Event-driven programming (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Network file system
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+RPC transparency
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Crash recovery
+{{< tdclose >}}
+{{< tdopen >}}
+Team list due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Logging
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Cache consistency and locking
+{{< tdclose >}}
+{{< tdopen >}}
+Project proposal due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Memory consistency
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+First project conferences
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Memory consistency (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Vector timestamps and version vectors
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Two-phase commit
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Paxos
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Viewstamped replication
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Harp
+{{< tdclose >}}
+{{< tdopen >}}
+First draft of report due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Second project conferences
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Frangipani
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Scalable lookup
+{{< tdclose >}}
+{{< tdopen >}}
+Second draft of report due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Wide-area storage
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Hacking day (no class)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Project demonstrations
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Content distribution
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Distributed computing
+{{< tdclose >}}
+{{< tdopen >}}
+Project reports due
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
